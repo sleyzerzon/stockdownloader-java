@@ -13,6 +13,8 @@ import com.oberdorf.example.stockdownloader.DataLoaderException;
  * Provides two streams via Yahoo URLs.  One is a list of all industries in XML.  The
  * other takes a single industry ID and returns XML with all contained companies.  We
  * used to get all the companies in one shot, but this appears to no longer work.
+ * 
+ * @author Oliver Oberdorf <oly@oberdorf.org>
  */
 class YahooStreamFetcher {
 	InputStream getIndustriesStream() throws DataLoaderException {

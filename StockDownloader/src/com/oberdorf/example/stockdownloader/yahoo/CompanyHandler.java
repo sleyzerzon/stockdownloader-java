@@ -15,6 +15,8 @@ import com.oberdorf.example.stockdownloader.Stock;
  * This handler is intended to be reused for each document with companies
  * in it.  It will aggregate all the equivalent Stock records and can then
  * return them as a full list.
+ * 
+ * @author Oliver Oberdorf <oly@oberdorf.org>
  */
 final class CompanyHandler extends DefaultHandler {
 	private List<Stock> companies;

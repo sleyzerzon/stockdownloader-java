@@ -23,6 +23,15 @@ import com.oberdorf.example.stockdownloader.DataLoader;
 import com.oberdorf.example.stockdownloader.DataLoaderException;
 import com.oberdorf.example.stockdownloader.Stock;
 
+/**
+ * Yahoo implementation of the stock data loader.
+ * 
+ * This implementation uses Yahoo web apis to provide
+ * the data loader functionality.
+ * 
+ * @author Oliver Oberdorf <oly@oberdorf.org>
+ *
+ */
 public final class YahooDataLoader implements DataLoader {
 	private YahooStreamFetcher streamFetcher;
 	

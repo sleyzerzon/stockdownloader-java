@@ -10,7 +10,7 @@ import java.util.List;
  * is used to do this, and various implementations are possible.  This could
  * be a MySQL database, SQLite or even flat files or serialized Java objects.
  * 
- * @author oly
+ * @author Oliver Oberdorf <oly@oberdorf.org>
  */
 public interface DataStore {
 	public void saveStock(Stock s);

@@ -8,7 +8,10 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 
-/** XML  Handler for the Yahoo Industry data, basically a list of industry ids */
+/** XML  Handler for the Yahoo Industry data, basically a list of industry ids
+ * 
+ *  @author Oliver Oberdorf <oly@oberdorf.org>
+ *  */
 final class IndustryHandler extends DefaultHandler {
 	private List<Long> ids;
 	
